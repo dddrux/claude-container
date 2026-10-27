@@ -1,0 +1,3 @@
+test_split: nao compila (gBoat2P / gB2 nao declarados, bote refatorado); JA era assim antes do patchSplit.5; os checks de START estao em test_split_start.cpp; atualizar o teste antigo
+test_cdp: nao compila (cdp.inc nao e mais incluido; o desktop usa web/web.inc); obsoleto: remover ou reescrever
+(corrigidos no patchFix.14/.15: test_audio, test_biomes, test_mooshroom, test_nick_sync, test_joystick)

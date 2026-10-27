@@ -1,0 +1,16 @@
+- [x] MELH-001: janela sem moldura GNOME; barra de título laranja só com "Claude" | resolvido | main.py:TitleBar
+- [x] BUG-001: botão maximizar com hover preso ao restaurar | resolvido | main.py:WinBtn
+- [x] BUG-002: 3 botões da barra em hover ao mesmo tempo | resolvido | main.py:WinBtn/TitleBar
+- [x] MELH-002: botões mais escuros + notificações | resolvido | main.py:_notify/_poll_busy
+- [x] MELH-003: balão com seta no perfil / notificação fora do app | resolvido | main.py:Toast/_on_busy
+- [x] BUG-004: notificação do sistema não chegava à central do GNOME | resolvido | main.py:_notify
+- [x] MELH-004: notificação com assunto/trecho da resposta + ícone | resolvido | main.py:_on_busy/_icon_path
+- [x] MELH-005: build AppImage (Linux x64) e setup.exe (Windows x64) com ícone | entregue | build_linux.sh, build_windows.bat
+- [x] MELH-006: instalador Linux sem AppImage (install.sh, .desktop, ícones GNOME) | resolvido | install.sh, update.sh
+- [x] MELH-007: esconder selos "Fazer upgrade"/"Experimental" | resolvido (confirmado por print) | main.py:HIDE_LABELS
+- [x] BUG-006: erros LevelDB LOCK por instância duplicada | resolvido (instância única) | main.py:main
+- [x] MELH-008: abre maximizada (não fullscreen) | resolvido | main.py:show_window
+- [x] BUG-000: validação runtime (moldura, barra, botões, redimensionar, selos) | resolvido (print no GNOME/Ubuntu) | main.py
+- [x] BUG-003: detecção de resposta em andamento | resolvido (seletores ampliados; notificações já confirmadas) | main.py:BUSY_JS
+- [x] BUG-007: moldura laranja visível com a janela maximizada (parecia não expandir) | resolvido | main.py:_sync_frame
+- [ ] BUG-005: validar builds reais (PyInstaller+QtWebEngine, appimagetool, ISCC); mandar log se falhar | aberto | build_linux.sh, build_windows.bat

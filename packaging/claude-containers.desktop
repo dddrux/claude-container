@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Claude Containers
+Comment=Claude com um perfil isolado por conta
+Exec=claude-containers
+Icon=claude-containers
+Terminal=false
+Categories=Network;Chat;
+StartupWMClass=claude-containers
